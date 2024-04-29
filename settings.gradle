@@ -3,6 +3,9 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
+        maven {
+            url "https://maven.google.com"
+        }
     }
 }
 dependencyResolutionManagement {
@@ -12,5 +15,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Music Player"
+rootProject.name = "Player"
 include ':app'
